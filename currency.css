@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-container{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(83, 166, 88);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.currency-converter{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.currency-input{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.currency-input1{
+     width: 13%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.conversion{
+    color: white;
+     margin-top: 20px; 
+     text-align: center
+}
+@media (max-width: 500px) {
+    .bg-container {
+        padding: 15px;
+        height: auto;
+        align-items: flex-start;
+    }
+    .card-container {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .currency-converter {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .currency-input, .currency-input1 {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    select, input {
+        width: 100%;
+    }
+}
