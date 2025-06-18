@@ -4,15 +4,13 @@ Currency Converter Application
 
 A simple, responsive web application that allows users to convert between 50+ global currencies in real time using live exchange rates.
 
-## 🚀 Live Demo
 
-[Live App URL](#) <!-- Replace with your deployed URL -->
 
----
 
 ## 📸 Screenshots
 
-![Currency Converter Screenshot](screenshot.png) <!-- Add your screenshot file or update the path -->
+ ![image](https://github.com/user-attachments/assets/7099f1f6-4c8f-4f5d-98bd-f3d55df128c3)
+<!-- Add your screenshot file or update the path -->
 
 ---
 
